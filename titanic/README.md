@@ -6,15 +6,13 @@
 FareとPclassを特徴量に指定して、データセットを分割。
 この時、trainとvalで生存者の比率を同じになるようにした。
 
-
 ## 1-2.LightGBMを使用
 ### 精度
-![alt text](images/feature_importance1.png)
+Train Accuracy: 0.7669
+Validation Accuracy: 0.7207
 
 ### 1-3.特徴量の重要度
-col	imp
-0	Fare	1013.661127
-1	Pclass	474.618153
+![alt text](images/feature_importance1.png)
 
 ### 1-4.confusion matrix
 ![alt text](images/confusion_matrix1.png)
